@@ -12,6 +12,30 @@
   background: #fff;
 }
 
+.floating-button {
+  position: fixed;
+  background-color: #e4a15e;
+  border: groove;
+  border-color: #000000;
+  color: rgb(0, 0, 0);
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 0px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+.floating-button:hover {
+  background: rgb(119, 96, 53);
+}
+
 nav {
   position: relative;
   top: 0;
@@ -61,7 +85,7 @@ nav .menu {
 
 
 .img {
-  background: url('/img/img32.png') no-repeat;
+  background: url('img32.png') no-repeat;
   filter: blur(8px);
   -webkit-filter: blur(8px);
   width: 100%;
