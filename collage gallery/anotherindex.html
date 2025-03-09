@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Foto Grid dengan Frame</title>
+<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="styles.css" />
+<link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet"
+/>
+</head>
+<body class="bg-blue-100 p-8 gantifont">
+    <!-- permisi pak izin bertanya, kenapa ya kalau saya zoom out itu gambarnya langsung offset rata kiri gitu pak?
+    saya main justify-items-center saja dulu
+    KARENA BEDA DIV!!!!!!!!!!!!!!!!!! AHAHAHHA alhamdulillah-->
+    <div class="container mx-auto p-8 my-10">
+        <div class="grid grid-cols-3 gap-4 mb-8">
+            <!-- img 1 6 7 10 -->
+            <div class="col-span-1 row-span-1 overflow-hidden justify-items-center">
+                <img src="img/img1.jpeg" alt="one" class="w-110 h-120 object-cover rounded-t-lg"/>
+                <div class="p-4 bg-white">
+                    <p class="text-gray-700 text-center">
+                    It's me. Suprised I got one. I feel so proud asking for help. I'm holding some free tea here!
+                    </p>
+                </div>
+                <img src="img/img6.jpeg" alt="six" class="w-90 h-120 object-cover rounded-t-lg pt-6"/>
+                <div class="p-4 bg-white">
+                    <p class="text-gray-700 text-center">
+                    Me in my almamater on my highschool.
+                    </p>
+                </div>
+            </div>
+            <!-- img 2 4 8 11 -->
+            <div class="col-span-1 row-span-1 overflow-hidden justify-items-center">
+                <img src="img/img2.jpeg" alt="two" class="w-80 h-50 object-cover rounded-t-lg"/>
+                <div class="p-4 bg-white">
+                    <p class="text-gray-700 text-center">
+                    It's me and my friends! We're on a boat together.
+                    </p>
+                </div>
+                <img src="img/img5.jpeg" alt="five" class= "w-150 h-60 object-cover rounded-t-lg pt-6"/>
+                <div class="p-4 bg-white">
+                    <p class="text-gray-700 text-center">
+                        It's me and my friends (college edition part 1)! We're in my bedroom discussing things regarding a school visit we had to do for an assignment.
+                    </p>
+                </div>
+            </div>
+            <!-- img 3 5 9 12 -->
+            <div class="col-span-1 row-span-1 overflow-hidden justify-items-center">
+                <img src="img/img3.jpeg" alt="three" class="w-100 h-50 object-cover rounded-t-lg"/>
+                <div class="p-2 bg-white">
+                    <p class="text-gray-700 text-center">
+                    It's me and some of my family! We're on this weird, sort of docks that's made of dirt and it proturdes to the sea. Rainy.
+                </div>
+                <img src="img/img4.jpeg" alt="four" class="w-180 h-40 object-cover rounded-t-lg pt-6"/>
+                <div class="p-4 bg-white">
+                    <p class="text-gray-700 text-center">
+                    It's me and my friends (college edition part 2)! Same discussion, different day, different friends.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

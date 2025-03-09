@@ -1,0 +1,84 @@
+/* @font-face {
+    font-family: "VCR_OSD_MONO";
+    src: url("VCR_OSD_MONO.ttf") format('truetype');
+} */
+
+.jumbotron {
+    background-color: rgba(255, 149, 0, 0.7);
+    padding: 60px;
+    text-align: center;
+    color: aliceblue;
+    font-size: medium;
+}
+
+nav{
+    background-color: green;
+    padding: 10px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+    transition: padding 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(12, 102, 12);
+    padding: 0.75em;
+}
+
+.floating-button {
+    position: fixed;
+    background-color: #e4a15e;
+    border: groove;
+    border-color: #000000;
+    color: rgb(0, 0, 0);
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 0px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+
+.floating-button:hover {
+    background: rgb(119, 96, 53);
+}
+
+.tengah{
+    text-align: center;
+    margin: 10px;
+}
+
+.ratakiri{
+    text-align: left;
+    margin: 10px;
+}
+
+.isat{
+    font-family: 'VCR_OSD_MONO';
+    border-bottom: 1px solid #fff; 
+    line-height: 0.1em;
+    margin: 10px 0 10px; 
+}
+.boxhijau {
+    background-color: rgba(224, 255, 223, 0.4);
+    margin: 15px;
+    padding: 13px;
+    border-radius: 0000000000000000000000008px;
+    text-align: center;
+    border-style: solid;
+}
